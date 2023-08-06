@@ -73,7 +73,7 @@ try:
         else:
             return True
 
-    # Create a radar's callback that just prints the data
+    # Create a radar's callback
     def radar_callback(weak_radar, sensor_data):
 
         self = weak_radar()
